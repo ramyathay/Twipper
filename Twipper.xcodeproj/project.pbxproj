@@ -12,6 +12,8 @@
 		D2DF4CDC1C55D44600D3094B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DF4CDA1C55D44600D3094B /* Main.storyboard */; };
 		D2DF4CDE1C55D44600D3094B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2DF4CDD1C55D44600D3094B /* Assets.xcassets */; };
 		D2DF4CE11C55D44600D3094B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DF4CDF1C55D44600D3094B /* LaunchScreen.storyboard */; };
+		D2DF4CE91C55D72200D3094B /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF4CE81C55D72200D3094B /* TweetCell.swift */; };
+		D2DF4CEB1C55D85800D3094B /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF4CEA1C55D85800D3094B /* Tweet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D2DF4CDD1C55D44600D3094B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2DF4CE01C55D44600D3094B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2DF4CE21C55D44600D3094B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2DF4CE81C55D72200D3094B /* TweetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
+		D2DF4CEA1C55D85800D3094B /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				D2DF4CD61C55D44500D3094B /* AppDelegate.swift */,
 				D2DF4CD81C55D44500D3094B /* ViewController.swift */,
 				D2DF4CDA1C55D44600D3094B /* Main.storyboard */,
+				D2DF4CEA1C55D85800D3094B /* Tweet.swift */,
+				D2DF4CE81C55D72200D3094B /* TweetCell.swift */,
 				D2DF4CDD1C55D44600D3094B /* Assets.xcassets */,
 				D2DF4CDF1C55D44600D3094B /* LaunchScreen.storyboard */,
 				D2DF4CE21C55D44600D3094B /* Info.plist */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2DF4CE91C55D72200D3094B /* TweetCell.swift in Sources */,
 				D2DF4CD91C55D44500D3094B /* ViewController.swift in Sources */,
 				D2DF4CD71C55D44500D3094B /* AppDelegate.swift in Sources */,
+				D2DF4CEB1C55D85800D3094B /* Tweet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
